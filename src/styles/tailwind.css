@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Global Background Colors */
+    --global-bg-primary: #54a4ff;
+    --global-bg-secondary: #b8d8fd;
+    --global-bg-tertiary: #c1c1c1;
+    --global-bg-light: #e9f7ff;
+    --global-bg-white: #fbfbfb;
+
+    /* Global Text Colors */
+    --global-text-primary: #171717;
+    --global-text-accent: #54a4ff;
+    --global-text-muted: #a3a3a3;
+    --global-text-light: #eeeeee;
+    --global-text-white: #fbfbfb;
+
+    /* Global Border Colors */
+    --global-border-muted: #a3a3a3;
+
+    /* Component-Specific: Header */
+    --header-bg: #fbfbfb;
+
+    /* Component-Specific: Header Menu */
+    --header-menu-text: #171717;
+
+    /* Component-Specific: Button */
+    --button-primary-bg: #54a4ff;
+    --button-primary-text: #eeeeee;
+    --button-secondary-bg: #e9f7ff;
+    --button-secondary-text: #54a4ff;
+    --button-accent-text: #fbfbfb;
+
+    /* Component-Specific: Footer */
+    --footer-bg: #b8d8fd;
+
+    /* Component-Specific: Link */
+    --link-text: #171717;
+
+    /* Typography Variables - Font Sizes */
+    --font-size-xs: 12px;
+    --font-size-sm: 16px;
+    --font-size-base: 18px;
+    --font-size-md: 20px;
+    --font-size-lg: 24px;
+    --font-size-xl: 32px;
+    --font-size-2xl: 48px;
+    --font-size-3xl: 80px;
+
+    /* Typography Variables - Font Weights */
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Typography Variables - Line Heights */
+    --line-height-xs: 15px;
+    --line-height-sm: 20px;
+    --line-height-base: 22px;
+    --line-height-md: 24px;
+    --line-height-lg: 25px;
+    --line-height-xl: 28px;
+    --line-height-2xl: 30px;
+    --line-height-3xl: 39px;
+    --line-height-4xl: 59px;
+    --line-height-5xl: 97px;
+
+    /* Spacing Variables - Margin */
+    --margin-xs: 6px;
+    --margin-sm: 8px;
+    --margin-md: 10px;
+    --margin-base: 12px;
+    --margin-lg: 14px;
+    --margin-xl: 16px;
+    --margin-2xl: 18px;
+    --margin-3xl: 20px;
+    --margin-4xl: 22px;
+    --margin-5xl: 24px;
+    --margin-6xl: 28px;
+    --margin-7xl: 44px;
+    --margin-8xl: 56px;
+    --margin-9xl: 72px;
+    --margin-10xl: 76px;
+    --margin-11xl: 94px;
+    --margin-12xl: 100px;
+    --margin-13xl: 102px;
+    --margin-14xl: 104px;
+
+    /* Spacing Variables - Padding */
+    --padding-sm: 8px;
+    --padding-md: 16px;
+    --padding-base: 20px;
+    --padding-lg: 24px;
+    --padding-xl: 26px;
+    --padding-2xl: 32px;
+    --padding-3xl: 46px;
+    --padding-4xl: 52px;
+    --padding-5xl: 56px;
+    --padding-6xl: 58px;
+    --padding-7xl: 64px;
+    --padding-8xl: 66px;
+    --padding-9xl: 72px;
+    --padding-10xl: 106px;
+    --padding-11xl: 108px;
+
+    /* Spacing Variables - Gap */
+    --gap-xs: 2px;
+    --gap-sm: 6px;
+    --gap-md: 8px;
+    --gap-base: 10px;
+    --gap-lg: 16px;
+    --gap-xl: 18px;
+    --gap-2xl: 22px;
+    --gap-3xl: 24px;
+    --gap-4xl: 28px;
+    --gap-5xl: 30px;
+    --gap-6xl: 32px;
+    --gap-7xl: 54px;
+    --gap-8xl: 58px;
+    --gap-9xl: 62px;
+    --gap-10xl: 68px;
+    --gap-11xl: 72px;
+    --gap-12xl: 74px;
+    --gap-13xl: 78px;
+    --gap-14xl: 88px;
+    --gap-15xl: 96px;
+
+    /* Border Variables - Border Radius */
+    --radius-sm: 20px;
+    --radius-md: 22px;
+    --radius-lg: 24px;
+    --radius-xl: 32px;
+    --radius-2xl: 44px;
+
+    /* Border Variables - Border Width */
+    --border-width-sm: 1px;
+    --border-width-md: 2px;
+
+    /* Layout Variables - Width */
+    --width-container: 1236px;
+    --width-card-sm: 162px;
+    --width-card-md: 168px;
+    --width-card-lg: 244px;
+    --width-card-xl: 286px;
+  }
+}
