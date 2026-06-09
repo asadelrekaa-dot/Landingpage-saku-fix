@@ -2,32 +2,37 @@ import React from 'react';
 
 const DemoVideoSection = () => {
   return (
-    <section 
+    <section
       id="showreel"
-      className="w-full bg-background-main py-10 sm:py-12 md:py-16 lg:py-[72px]"
+      className="relative w-full py-20 sm:py-28 lg:py-36 bg-transparent"
     >
-      <div className="w-full max-w-container mx-auto px-4 sm:px-6 lg:px-[102px]">
-        <div className="flex flex-col justify-start items-center gap-8 sm:gap-10 md:gap-12 lg:gap-[78px] w-full">
-          {/* Section Title */}
-          <h2 className="text-2xl sm:text-3xl md:text-[36px] lg:text-2xl font-bold leading-[36px] sm:leading-[44px] md:leading-[52px] lg:leading-4xl text-text-primary text-center">
-            Demo Video
+      {/* Container utama diperlebar secara maksimal */}
+      <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-8 lg:px-16">
+        <div className="flex flex-col items-center gap-12 lg:gap-16">
+
+          {/* Judul Teks Diperbesar */}
+          <h2 className="text-4xl sm:text-5xl font-black text-center text-[#171717] tracking-tight">
+            See How It <span className="text-[#54a4ff]">Works</span>
           </h2>
 
-          {/* Video Placeholder */}
-          <div className="w-full bg-background-tertiary rounded-lg sm:rounded-xl overflow-hidden" style={{ aspectRatio: '16/9' }}>
-            <div className="w-full h-full flex items-center justify-center">
-              <div className="text-center p-6">
-                <svg 
-                  className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 mx-auto mb-4 text-gray-400" 
-                  fill="currentColor" 
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" />
-                </svg>
-                <p className="text-base sm:text-lg text-gray-500">Demo Video</p>
-              </div>
+          {/* Pembungkus Video Diperbesar Maksimal ke 1200px */}
+          <div className="w-full max-w-[1200px] bg-white/80 border border-slate-200/60 rounded-[32px] p-4 sm:p-6 shadow-[0_30px_70px_rgba(23,23,23,0.08)] backdrop-blur-md transform hover:scale-[1.01] transition-transform duration-300">
+            <div className="relative w-full rounded-2xl overflow-hidden shadow-inner bg-slate-900" style={{ aspectRatio: '16/9' }}>
+              <video
+                className="w-full h-full object-cover"
+                controls
+                preload="metadata"
+                poster="/images/video-thumbnail.png"
+              >
+                <source
+                  src="/Saku AppPromo Showreel.mp4"
+                  type="video/mp4"
+                />
+                Browser Anda tidak mendukung video.
+              </video>
             </div>
           </div>
+
         </div>
       </div>
     </section>
