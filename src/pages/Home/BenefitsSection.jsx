@@ -36,7 +36,7 @@ const BenefitsSection = () => {
       <div className="w-full max-w-container mx-auto px-4 sm:px-6 lg:px-[102px]">
         <div className="flex flex-col justify-start items-center gap-8 sm:gap-12 md:gap-16 lg:gap-[74px] w-full">
           {/* Section Title */}
-          <h2 className="text-2xl sm:text-3xl md:text-[36px] lg:text-2xl font-bold leading-[36px] sm:leading-[44px] md:leading-[52px] lg:leading-4xl text-center">
+          <h2 className="text-2xl sm:text-2xl md:text-2xl lg:text-2xl font-bold leading-[50px] sm:leading-[70px] md:leading-[52px] lg:leading-4xl text-center">
             <span className="text-text-primary">Kenapa Pakai </span>
             <span className="text-primary-DEFAULT">Saku</span>
             <span className="text-primary-DEFAULT">?</span>

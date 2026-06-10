@@ -24,7 +24,7 @@ const CTASection = () => {
             <div className="flex flex-col justify-start items-start w-[68%] sm:w-[60%] lg:w-[60%]">
               {/* Text Content */}
               <div className="flex flex-col justify-start items-start w-full">
-                <h2 className="text-[13px] leading-[16px] sm:text-3xl md:text-4xl lg:text-2xl font-bold sm:leading-10 lg:leading-8 text-white text-left">
+                <h2 className="text-[13px] leading-[16px] sm:text-2xl md:text-4xl lg:text-2xl font-bold sm:leading-[50px] lg:leading-8 text-white text-left">
                   Download Saku Sekarang!
                 </h2>
 
@@ -65,15 +65,15 @@ const CTASection = () => {
             </div>
 
             {/* Right Logo Image */}
-            <div className="w-[32%] sm:w-[40%] lg:w-[34%] flex justify-end items-center">
-              <img
-                src="/images/img_logo_1_desktop_cta.png"
-                alt="Saku Logo"
-                className="w-[58px] sm:w-[220px] md:w-[280px] lg:w-full lg:max-w-[368px] h-auto drop-shadow-[0_12px_12px_rgba(0,0,0,0.35)]"
-                width={368}
-                height={258}
-              />
-            </div>
+            <div className="w-[45%] sm:w-[40%] lg:w-[34%] flex justify-end items-center">
+            <img
+              src="/images/img_logo_1_desktop_cta.png"
+              alt="Saku Logo"
+              className="w-[100px] sm:w-[220px] md:w-[280px] lg:w-full lg:max-w-[368px] h-auto drop-shadow-[0_12px_12px_rgba(0,0,0,0.35)] object-contain"
+              width={368}
+              height={258}
+            />
+          </div>
           </div>
         </div>
       </div>
