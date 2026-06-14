@@ -26,8 +26,6 @@ const Home = () => {
         <HeroSection />
         <BenefitsSection />
         <FeaturesSection />
-        <DemoVideoSection />
-        <CtaSection />
       </main>
       <Footer />
     </>

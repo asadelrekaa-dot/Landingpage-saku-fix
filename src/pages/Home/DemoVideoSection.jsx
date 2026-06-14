@@ -21,6 +21,9 @@ const DemoVideoSection = () => {
               <video
                 className="w-full h-full object-cover"
                 controls
+                autoPlay
+                loop
+                muted
                 preload="metadata"
                 poster="/images/video-thumbnail.png"
               >

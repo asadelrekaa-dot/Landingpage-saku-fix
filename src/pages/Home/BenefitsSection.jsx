@@ -36,9 +36,9 @@ const BenefitsSection = () => {
       <div className="w-full max-w-container mx-auto px-4 sm:px-6 lg:px-[102px]">
         <div className="flex flex-col justify-start items-center gap-8 sm:gap-12 md:gap-16 lg:gap-[74px] w-full">
           {/* Section Title */}
-          <h2 className="text-2xl sm:text-2xl md:text-2xl lg:text-2xl font-bold leading-[50px] sm:leading-[70px] md:leading-[52px] lg:leading-4xl text-center">
+           <h2 className="text-center text-xl md:text-[48px] lg:text-[48px] font-bold mb-8">
             <span className="text-text-primary">Kenapa Pakai </span>
-            <span className="text-primary-DEFAULT">Saku</span>
+            <span className="text-[#5B9DFF]">Saku</span>
             <span className="text-primary-DEFAULT">?</span>
           </h2>
 
@@ -47,7 +47,26 @@ const BenefitsSection = () => {
             {benefits?.map((benefit) => (
               <div
                 key={benefit?.id}
-                className="flex flex-col justify-start items-center gap-3 sm:gap-4 lg:gap-[18px] bg-background-main border border-border-muted rounded-xl sm:rounded-2xl lg:rounded-xl p-5 sm:p-6 lg:p-lg shadow-[0px_4px_4px_#0000003f] hover:shadow-lg transition-shadow duration-300"
+                className="
+  flex flex-col justify-start items-center
+  gap-3 sm:gap-4 lg:gap-[18px]
+
+  bg-background-main
+  border border-border-muted
+  rounded-xl sm:rounded-2xl lg:rounded-xl
+
+  p-5 sm:p-6 lg:p-lg
+
+  shadow-[0px_4px_4px_#0000003f]
+
+  transition-all
+  duration-300
+  ease-out
+
+  hover:scale-[1.03]
+  hover:shadow-2xl
+  hover:z-10
+"
               >
                 {/* Image */}
                 <div className="w-[120px] sm:w-[140px] lg:w-[168px]">

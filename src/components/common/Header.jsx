@@ -7,7 +7,6 @@ const Header = () => {
   const menuItems = [
     { id: '327:5517', label: 'Kenapa Saku?', href: '#kenapa-saku' },
     { id: '327:5518', label: 'Fitur Unggulan', href: '#fitur-unggulan' },
-    { id: '327:5519', label: 'Showreel', href: '#showreel' },
     { id: '327:5520', label: 'Kontak', href: '#kontak' },
   ];
 

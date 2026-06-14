@@ -5,18 +5,17 @@ const Footer = () => {
     links: [
       { id: '564:6736', label: 'Kenapa Saku?', href: '#kenapa-saku' },
       { id: '564:6737', label: 'Fitur Unggulan', href: '#fitur-unggulan' },
-      { id: '564:6738', label: 'Showreel', href: '#showreel' },
     ],
     socialMedia: [
-      { id: '564:6739', label: 'Youtube', href: 'https://youtube.com' },
-      { id: '564:6740', label: 'Instagram', href: 'https://instagram.com' },
-      { id: '564:6741', label: 'Tiktok', href: 'https://tiktok.com' },
+      { id: '564:6739', label: 'Youtube', href: 'https://www.youtube.com/@Saku-for-you' },
+      { id: '564:6740', label: 'Instagram', href: 'https://www.instagram.com/saku_app?igsh=MWJvejM2eW9ocGVwMg==' },
+      { id: '564:6741', label: 'Tiktok', href: 'https://www.tiktok.com/@saku.for.you?_r=1&_t=ZS-96DS2oZqRr2' },
     ],
   };
 
   return (
     <footer 
-      className="w-full bg-footer-background"
+      className="w-full bg-footer-background  mt-20 sm:mt-0"
       role="contentinfo"
     >
       <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-16">

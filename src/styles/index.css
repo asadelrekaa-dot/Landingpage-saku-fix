@@ -41,3 +41,20 @@ img {
   display: block;
 }
 
+@keyframes pulseCircle {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  50% {
+    transform: translate(-50%, -50%) scale(1.03);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.pulse-circle {
+  animation: pulseCircle 1.5s ease-in-out infinite;
+}
